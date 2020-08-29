@@ -1,0 +1,88 @@
+body{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(img/bg-04.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.form {
+	width: 500px;
+	padding: 20px 30px;
+	margin: 50px auto;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(img/bg-02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 10px;
+
+}
+input {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	padding: 10px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-weight: bold;
+}
+input[type="search"] {
+	width: 100px;
+	display: block;
+	border: 2px solid lightgray;
+	margin: auto;
+	margin-right: 0px;
+	background-image: url(img/search.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	padding-left: 30px;
+	background-position: 10px 10px;
+	transition: width 0.4s ease-in-out;
+}
+input[type="search"]:focus {
+	border: 2px solid lime;
+	font-weight: bold;
+	width: 200px;
+}
+label {
+	padding: 5px 0;
+}
+textarea {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+	outline: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid gray;
+	text-align: left                                          
+}
+input[type="submit"] {
+	width: 100px;
+	padding: 7px 20px;
+	display: block;
+	margin:0 auto;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: 2px solid navy;
+	font-weight: bold;
+	font-size: 16px;
+	transition: 0.5s;
+}
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: navy;
+	color: white;
+	border: 2px solid white;
+}
